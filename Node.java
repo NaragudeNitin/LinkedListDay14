@@ -18,7 +18,7 @@ public class Node <K> {
 	}
 	
 	public void setKey(K key) {
-		this.key =key;
+	 	this.key =key;
 	}
 	
 	public Node getNext() {
