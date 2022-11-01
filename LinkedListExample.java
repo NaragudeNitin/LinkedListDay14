@@ -5,13 +5,14 @@ public class LinkedListExample {
 		
 		LinkedListExample linkedListExample = new LinkedListExample();
 		linkedListExample.add();
-
+		
 	}
 	public void add() {
 		LinkedList<Integer> addnode = new LinkedList<>();
-		addnode.add(70);
-		addnode.add(30);
 		addnode.add(56);
+		addnode.add(70);
+		addnode.add(1, 30);
 		System.out.println(addnode);
 	}
+
 }
