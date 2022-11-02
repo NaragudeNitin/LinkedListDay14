@@ -14,10 +14,9 @@ public class LinkedListExample {
 		System.out.println("Before Pop");
 		System.out.println(addnode);
 		System.out.println();
-		addnode.pollLast();
-		System.out.println("After Deleting Last element output is: ");
 		System.out.println(addnode);
-
+		
+		
 	}
 
 }
