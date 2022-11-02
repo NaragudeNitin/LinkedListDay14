@@ -14,8 +14,11 @@ public class LinkedListExample {
 		System.out.println("Before Pop");
 		System.out.println(addnode);
 		System.out.println();
-		System.out.println(addnode);
 		
+		addnode.add(2, 40);
+		System.out.println("After inserting 40 to list, list is");
+		System.out.println(addnode);
+				
 		
 	}
 
