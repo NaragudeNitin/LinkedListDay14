@@ -15,6 +15,7 @@ public class TestList {
 		nodeTest.add(30);
 		nodeTest.add(70);
 //        assertTrue(nodeTest.contains(30));
-
+		nodeTest.add(2, 40);
+      assertTrue(nodeTest.contains(40));
 	}
 }

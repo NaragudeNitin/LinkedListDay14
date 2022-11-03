@@ -18,6 +18,11 @@ public class LinkedListExample {
 		addnode.add(2, 40);
 		System.out.println("After inserting 40 to list, list is");
 		System.out.println(addnode);
+		
+		System.out.println();
+		System.out.println("After checking, deleting the 40 from list:");
+		addnode.remove(2);
+		System.out.println(addnode);
 				
 		
 	}
